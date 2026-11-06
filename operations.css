@@ -1,0 +1,243 @@
+                                                                                                     
+.biz-body{background:#03101c;color:#f2faff}
+.biz-body h1,.biz-body h2,.biz-body h3{word-spacing:.10em}
+.biz-body h2{line-height:1.12;letter-spacing:-.057em}
+                                                    
+.biz-hero{position:relative;isolation:isolate;background:#020b17;min-height:810px;overflow:hidden}
+.biz-hero-stage,.biz-hero-poster,.biz-hero-stage video,.biz-hero-overlay{position:absolute;inset:0;width:100%;height:100%;pointer-events:none}
+.biz-hero-stage{z-index:-1;overflow:hidden}
+.biz-hero-poster{background:url('./assets/axetl-business-hero.webp') center center/cover no-repeat}
+.biz-hero-stage video{object-fit:cover;object-position:center center;opacity:0;transition:opacity .8s ease}
+.biz-hero.is-playing .biz-hero-stage video{opacity:1}
+.biz-hero-overlay{background:linear-gradient(90deg,rgba(2,11,23,.82),rgba(2,11,23,.52) 42%,rgba(2,11,23,.1) 74%),linear-gradient(180deg,rgba(2,11,23,.32),transparent 40%,transparent 70%,rgba(2,11,23,.52));z-index:1}
+.biz-hero-content{position:relative;z-index:2;display:flex;align-items:center;min-height:800px;padding:143px 0 131px}
+.biz-hero-copy{width:min(63%,780px)}
+.biz-hero h1{font:800 clamp(4.1rem,6.65vw,7.4rem)/1.08 var(--head);letter-spacing:-.07em;margin:28px 0 28px}
+.biz-hero h1 em{font-style:normal;color:var(--cyan)}
+.biz-hero-lead{font:750 clamp(1.17rem,1.65vw,1.6rem)/1.49 var(--head);color:#effaff;letter-spacing:-.025em;margin:0 0 17px}
+.biz-hero-description{color:#b5cfda;max-width:548px;font:400 15px/1.85 var(--body);margin:0 0 31px}
+.biz-hero-tags{font:800 9px/1.5 var(--body);letter-spacing:.15em;color:#83adbe;margin:34px 0 0}
+.biz-hero-tags span{color:var(--cyan);padding:0 12px}
+.biz-hero-bottom{position:absolute;z-index:3;left:50%;bottom:22px;transform:translateX(-50%);display:flex;justify-content:space-between;gap:15px;color:#8ab1c0;font:800 9px/1.4 var(--body);letter-spacing:.17em}
+               
+.biz-point,.biz-workflow,.biz-audience,.biz-faq{color:#081b29;background:#f2f6f8;padding:107px 0 115px}
+.biz-point .section-overline,.biz-workflow .section-overline,.biz-audience .section-overline,.biz-faq .section-overline{color:#6c8997;border-color:rgba(7,55,74,.19)}
+.biz-point .kicker,.biz-workflow .kicker,.biz-audience .kicker,.biz-faq .kicker{color:#008ba7}
+.biz-point h2 em,.biz-workflow h2 em,.biz-audience h2 em,.biz-faq h2 em{color:#0098b5}
+.biz-point-layout{display:grid;grid-template-columns:1.06fr .94fr;gap:12%;align-items:start;padding:76px 0 73px}
+.biz-point h2,.biz-services h2,.biz-workflow h2,.biz-payroll h2,.biz-audience h2,.biz-connected h2,.biz-faq h2{font-size:clamp(3rem,4.7vw,5.5rem);margin:0}
+.biz-point-copy{padding-top:13px}
+.biz-point-copy p{font:400 15px/1.89 var(--body);color:#506d7c;margin:0 0 17px}
+.biz-point-copy .biz-point-lead{font:750 clamp(19px,2vw,23px)/1.5 var(--head);letter-spacing:-.025em;color:#163241;margin-bottom:19px}
+.biz-values{border-top:1px solid rgba(7,55,74,.17);display:flex;align-items:center;gap:18px;padding-top:24px;flex-wrap:wrap;color:#597988;font:800 10px/1.4 var(--body);letter-spacing:.15em}
+.biz-values i{background:#009db9;border-radius:50%;height:4px;width:4px}
+                                               
+.biz-services{background:#051725;padding:109px 0 126px}
+.biz-services-top,.biz-workflow-heading,.biz-audience-heading,.biz-connected-header{display:grid;grid-template-columns:1.17fr .83fr;align-items:end;gap:12%;padding:69px 0 63px}
+.biz-services-top>p,.biz-connected-header>p{font:400 15px/1.87 var(--body);color:#a8c4d0;margin:0 0 8px}
+.biz-service-list{border-top:1px solid rgba(137,206,221,.22)}
+.biz-service-row{display:grid;grid-template-columns:41px minmax(0,1fr) 225px;gap:26px;align-items:center;border-bottom:1px solid rgba(137,206,221,.20);padding:34px 0}
+.biz-service-index{font:800 11px/1.6 var(--body);color:var(--cyan);align-self:start}
+.biz-service-type{font:800 10px/1.4 var(--body);letter-spacing:.14em;color:#7daab9}
+.biz-service-row h3{font-size:clamp(1.65rem,2.45vw,2.35rem);margin:10px 0 11px}
+.biz-service-row p{max-width:750px;color:#aac5d0;font:400 14px/1.82 var(--body);margin:0}
+.biz-service-link{font:800 12px/1.4 var(--body);color:#e0f6f9;display:flex;align-items:center;justify-content:space-between;gap:18px;border-bottom:1px solid rgba(0,221,244,.45);padding:12px 0}
+.biz-service-link span{color:var(--cyan);font:400 20px/1 var(--body)}
+.biz-service-link:hover{color:var(--cyan)}
+                                                            
+.biz-axi{position:relative;isolation:isolate;min-height:750px;background:#041321;overflow:hidden}
+.biz-axi-art,.biz-axi-overlay{position:absolute;inset:0;height:100%;width:100%;pointer-events:none}
+.biz-axi-art{z-index:-2;object-fit:cover;object-position:center center}
+.biz-axi-overlay{z-index:-1;background:linear-gradient(90deg,rgba(2,11,23,.03),rgba(2,11,23,.25) 30%,rgba(2,11,23,.87) 56%,#03101c 100%),linear-gradient(180deg,rgba(2,11,23,.12),transparent 66%,rgba(2,11,23,.5))}
+.biz-axi-content{display:flex;flex-direction:column;min-height:750px;padding:65px 0 83px}
+.biz-axi-copy{width:min(48%,625px);align-self:flex-end;margin:auto 0 4%}
+.biz-axi h2{font-size:clamp(3.05rem,4.55vw,5.5rem);margin:0 0 29px}
+.biz-axi-copy p:not(.kicker){color:#b6cad4;font:400 15px/1.83 var(--body);margin:0 0 18px}
+.biz-axi-copy .button{margin-top:16px}
+                                                            
+.biz-workflow{padding:107px 0 121px}
+.biz-workflow-heading>p,.biz-audience-heading>p{font:400 15px/1.87 var(--body);color:#536e7c;margin:0 0 8px}
+.biz-workflow-panel{background:#061826;border:1px solid rgba(20,125,155,.27);box-shadow:0 15px 55px rgba(6,41,63,.07)}
+.biz-workflow-toolbar,.biz-workflow-foot{display:flex;justify-content:space-between;gap:20px;align-items:center;padding:18px 27px;font:800 10px/1.5 var(--body);letter-spacing:.13em;color:#96bbc7}
+.biz-workflow-toolbar{border-bottom:1px solid rgba(127,207,224,.2)}
+.biz-workflow-foot{border-top:1px solid rgba(127,207,224,.2);color:#89aebb}
+.biz-workflow-tabs{display:flex;gap:4px;padding:4px;border:1px solid rgba(128,206,224,.26);border-radius:3px}
+.biz-workflow-tab{border:0;background:transparent;color:#b9d1d9;border-radius:2px;font:800 11px/1.4 var(--body);padding:9px 18px;letter-spacing:0}
+.biz-workflow-tab.active,.biz-workflow-tab[aria-pressed=true]{color:#031c2c;background:var(--cyan)}
+.biz-workflow-inner{display:grid;grid-template-columns:.68fr 1.32fr;gap:7%;align-items:center;padding:60px 7%;min-height:410px;background:radial-gradient(ellipse at 90% 70%,rgba(3,159,196,.12),transparent 55%),#061826}
+.biz-workflow-side{align-self:start;padding-top:12px}
+.biz-workflow-label{font:800 10px/1.4 var(--body);letter-spacing:.13em;color:#7db7c8}
+.biz-workflow-side h3{font-size:clamp(2rem,3.4vw,3.5rem);line-height:1.14;letter-spacing:-.055em;margin:24px 0 22px;max-width:370px}
+.biz-workflow-side>p{font:400 14px/1.86 var(--body);color:#a7c5d0;max-width:365px;margin-bottom:31px}
+.biz-workflow-state{display:inline-flex;border-left:2px solid var(--cyan);padding:8px 13px;color:var(--cyan);font:800 10px/1.4 var(--body);letter-spacing:.08em}
+.biz-workflow-steps{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:15px;list-style:none;padding:0;margin:0}
+.biz-workflow-steps li{padding:24px;min-height:175px;background:rgba(11,40,58,.78);border:1px solid rgba(114,187,213,.23)}
+.biz-workflow-steps li>span{display:block;color:var(--cyan);font:800 10px/1.5 var(--body);margin-bottom:17px}
+.biz-workflow-steps strong{display:block;font:800 17px/1.4 var(--head);letter-spacing:-.03em;color:#f5fdff}
+.biz-workflow-steps p{font:400 12px/1.73 var(--body);color:#a1bdc9;margin:9px 0 0}
+                              
+.biz-payroll{background:linear-gradient(147deg,#061929,#0b2638 70%,#061723);padding:110px 0 120px}
+.biz-payroll-layout{display:grid;grid-template-columns:.96fr 1.04fr;align-items:start;gap:12%;padding-top:76px}
+.biz-payroll-layout>div:first-child>p:not(.kicker){color:#b4ccd6;font:400 15px/1.83 var(--body);max-width:510px;margin:23px 0 32px}
+.biz-payroll h2{margin:0}
+.biz-payroll-checklist{padding:32px 33px;background:#0b293b;border:1px solid rgba(116,199,218,.3)}
+.biz-payroll-titlebar{display:flex;justify-content:space-between;gap:20px;margin-bottom:20px;color:var(--cyan);font:800 10px/1.5 var(--body);letter-spacing:.13em}
+.biz-payroll-checklist>div:not(.biz-payroll-titlebar){display:grid;grid-template-columns:40px 1fr;gap:8px;padding:19px 0;border-top:1px solid rgba(136,207,224,.2)}
+.biz-payroll-checklist>div>span{color:var(--cyan);font:800 11px/1.5 var(--body)}
+.biz-payroll-checklist>div>p{color:#d6eaf0;font:550 14px/1.64 var(--body);margin:0}
+.biz-payroll-disclaimer{font:400 11px/1.8 var(--body);color:#8dadbb;margin:19px 0 0}
+              
+.biz-audience{padding:105px 0 114px}
+.biz-audience-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));border-top:1px solid rgba(7,58,81,.17);border-bottom:1px solid rgba(7,58,81,.17)}
+.biz-audience-grid article{padding:28px 30px 45px;border-right:1px solid rgba(7,58,81,.17)}
+.biz-audience-grid article:first-child{padding-left:0}
+.biz-audience-grid article:last-child{border-right:0}
+.biz-audience-grid article>span{font:800 10px/1.4 var(--body);letter-spacing:.12em;color:#008aab}
+.biz-audience-grid h3{font-size:clamp(1.5rem,2.05vw,2.05rem);margin:61px 0 14px}
+.biz-audience-grid p{color:#546f7d;font:400 14px/1.82 var(--body);margin:0}
+                          
+.biz-connected{padding:109px 0 116px;background:#061825}
+.biz-connected-links{border-top:1px solid rgba(145,213,229,.21)}
+.biz-connected-links a{display:grid;grid-template-columns:45px .8fr 1fr 30px;align-items:center;gap:20px;padding:30px 0;border-bottom:1px solid rgba(145,213,229,.21);color:#f2fbff}
+.biz-connected-links a>span{color:var(--cyan);font:800 11px/1.4 var(--body)}
+.biz-connected-links a strong{font:800 clamp(1.45rem,2.45vw,2.3rem)/1.25 var(--head);letter-spacing:-.045em}
+.biz-connected-links a small{font:400 13px/1.7 var(--body);color:#a8c5d0}
+.biz-connected-links a>b{font:400 21px/1 var(--body);color:var(--cyan)}
+.biz-connected-links a:hover strong{color:var(--cyan)}
+         
+.biz-faq{padding:107px 0 122px}
+.biz-faq-layout{display:grid;grid-template-columns:.76fr 1.24fr;gap:12%;padding-top:70px}
+.biz-faq-layout>div:first-child>p:not(.kicker){font:400 15px/1.87 var(--body);max-width:360px;color:#597480;margin:26px 0 0}
+.biz-faq-items{border-top:1px solid rgba(9,61,85,.18)}
+.biz-faq-items details{border-bottom:1px solid rgba(9,61,85,.18)}
+.biz-faq-items summary{list-style:none;display:flex;align-items:center;justify-content:space-between;gap:22px;padding:24px 0;cursor:pointer;font:750 15px/1.45 var(--head);color:#112d3a}
+.biz-faq-items summary::-webkit-details-marker{display:none}
+.biz-faq-items summary span{font:400 23px/1 var(--head);color:#009ebb;transition:transform .2s}
+.biz-faq-items details[open] summary span{transform:rotate(45deg)}
+.biz-faq-items details p{font:400 14px/1.86 var(--body);color:#526e7d;padding:0 30px 25px 0;margin:0}
+             
+.biz-contact{padding:110px 0 121px;background:radial-gradient(ellipse at 18% 70%,rgba(3,146,188,.13),transparent 54%),#061725}
+.biz-contact-layout{display:grid;grid-template-columns:.93fr 1.07fr;gap:12%;align-items:start;padding-top:74px}
+.biz-contact h2{font-size:clamp(3rem,4.75vw,5.6rem);margin:0 0 28px}
+.biz-contact-copy>p:not(.kicker):not(.biz-location){font:400 15px/1.85 var(--body);color:#b0c9d4;max-width:510px;margin-bottom:30px}
+.biz-contact-links{max-width:390px;border-top:1px solid rgba(134,206,225,.22);display:flex;flex-direction:column}
+.biz-contact-links a{display:flex;justify-content:space-between;gap:15px;padding:17px 0;border-bottom:1px solid rgba(134,206,225,.22);font:750 14px/1.5 var(--body);color:#d9f0f6}
+.biz-contact-links a:hover,.biz-contact-links a span{color:var(--cyan)}
+.biz-contact-links a span{font-size:18px}
+.biz-location{font:400 12px/1.73 var(--body);color:#86a9b7;margin:25px 0 0}
+.biz-enquiry-form{padding:34px;border:1px solid rgba(132,204,222,.28);background:rgba(11,35,52,.72)}
+.biz-form-heading{display:flex;justify-content:space-between;gap:15px;font:750 19px/1.4 var(--head);margin:0 0 26px}
+.biz-form-heading span{font-size:21px;color:var(--cyan)}
+.biz-form-pair{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.biz-enquiry-form label{display:block;color:#d7ebf1;font:700 12px/1.45 var(--body);margin:0 0 19px}
+.biz-enquiry-form label>span{color:#8baab7;font:400 11px/1.45 var(--body)}
+.biz-enquiry-form abbr{color:var(--cyan);text-decoration:none}
+.biz-enquiry-form input,.biz-enquiry-form select,.biz-enquiry-form textarea{display:block;width:100%;min-width:0;background:#071a2a;border:1px solid rgba(131,199,221,.34);border-radius:2px;margin-top:8px;padding:13px;font:400 13px/1.4 var(--body);outline:0;color:#f5fcff}
+.biz-enquiry-form input::placeholder,.biz-enquiry-form textarea::placeholder{color:#85a4b2}
+.biz-enquiry-form textarea{resize:vertical}
+.biz-enquiry-form input:focus,.biz-enquiry-form select:focus,.biz-enquiry-form textarea:focus{border-color:var(--cyan);box-shadow:0 0 0 2px rgba(0,218,244,.14)}
+.biz-enquiry-form .button{cursor:pointer;width:100%}
+.biz-form-hint,.biz-form-status{font:400 11px/1.76 var(--body);color:#86a8b6;margin:13px 0 0}
+.biz-form-status{min-height:1em;color:#b7f5f8}
+@media(max-width:1170px){
+ .biz-hero h1{font-size:clamp(4rem,6.9vw,6.6rem)}
+ .biz-hero-copy{width:68%}
+ .biz-axi-copy{width:55%}
+ .biz-service-row{grid-template-columns:35px minmax(0,1fr) 170px;gap:19px}
+ .biz-connected-links a{grid-template-columns:38px .85fr 1fr 25px}
+}
+@media(max-width:850px){
+ .biz-hero,.biz-hero-content{min-height:740px}
+ .biz-hero-copy{width:77%}
+ .biz-point-layout,.biz-services-top,.biz-workflow-heading,.biz-audience-heading,.biz-connected-header,.biz-faq-layout,.biz-contact-layout{grid-template-columns:1fr;gap:27px}
+ .biz-point-layout{padding:56px 0}
+ .biz-point-copy{padding-top:0}
+ .biz-services-top,.biz-workflow-heading,.biz-audience-heading,.biz-connected-header{padding:56px 0 49px}
+ .biz-services-top>p,.biz-workflow-heading>p,.biz-audience-heading>p,.biz-connected-header>p{max-width:700px}
+ .biz-axi-copy{width:62%}
+ .biz-workflow-inner{grid-template-columns:1fr;gap:31px;padding:42px}
+ .biz-workflow-side{padding:0}
+ .biz-workflow-side h3{margin:15px 0;font-size:2.8rem}
+ .biz-workflow-side>p{max-width:690px;margin-bottom:19px}
+ .biz-payroll-layout{grid-template-columns:1fr;gap:40px;padding-top:56px}
+ .biz-payroll-layout>div:first-child>p:not(.kicker){max-width:700px}
+ .biz-payroll-checklist{max-width:700px}
+ .biz-faq-layout,.biz-contact-layout{padding-top:56px}
+ .biz-enquiry-form{max-width:690px}
+ .biz-connected-links a{grid-template-columns:38px 1fr 25px;gap:18px}
+ .biz-connected-links a small{grid-column:2;grid-row:2}
+ .biz-connected-links a b{grid-column:3;grid-row:1}
+}
+@media(max-width:650px){
+ .biz-hero,.biz-hero-content{min-height:860px}
+ .biz-hero-content{align-items:flex-start;padding:144px 0 144px}
+ .biz-hero-copy{width:100%}
+ .biz-hero h1{font-size:clamp(3.55rem,10.9vw,5rem);line-height:1.1}
+ .biz-hero-lead{font-size:17px}
+ .biz-hero-description{font-size:13px;max-width:470px}
+ .biz-hero-stage video{object-position:68% center}
+ .biz-hero-poster{background-position:68% center}
+ .biz-hero-overlay{background:linear-gradient(90deg,rgba(2,11,23,.95),rgba(2,11,23,.82) 61%,rgba(2,11,23,.39)),linear-gradient(180deg,rgba(2,11,23,.18),transparent 55%,rgba(2,11,23,.55))}
+ .biz-hero-bottom span:last-child{display:none}
+ .biz-hero-tags{font-size:8px;line-height:1.8;letter-spacing:.1em}
+ .biz-hero-tags span{padding:0 7px}
+ .biz-point,.biz-workflow,.biz-audience,.biz-faq{padding:77px 0 90px}
+ .biz-services,.biz-payroll,.biz-connected,.biz-contact{padding:79px 0 90px}
+ .biz-point h2,.biz-services h2,.biz-workflow h2,.biz-payroll h2,.biz-audience h2,.biz-connected h2,.biz-faq h2,.biz-contact h2{font-size:clamp(2.7rem,9.4vw,4.25rem)}
+ .biz-point-copy p{font-size:14px}
+ .biz-values{gap:12px;font-size:8px;letter-spacing:.1em}
+ .biz-service-row{grid-template-columns:27px 1fr;gap:12px 13px;padding:26px 0}
+ .biz-service-row h3{font-size:25px}
+ .biz-service-row p{font-size:13px}
+ .biz-service-link{grid-column:2;max-width:195px}
+ .biz-axi,.biz-axi-content{min-height:825px}
+ .biz-axi-art{height:56%;object-position:22% top}
+ .biz-axi-overlay{background:linear-gradient(180deg,rgba(2,11,23,.03),rgba(2,11,23,.1) 25%,rgba(2,11,23,.88) 55%,#03101c 79%)}
+ .biz-axi-content{padding-top:46px;padding-bottom:55px}
+ .biz-axi-copy{width:100%;margin:auto 0 0;padding-top:265px}
+ .biz-axi h2{font-size:clamp(2.8rem,9.5vw,4.25rem)}
+ .biz-axi-copy p:not(.kicker){font-size:13px}
+ .biz-workflow-toolbar,.biz-workflow-foot{padding:16px}
+ .biz-workflow-toolbar>span{display:none}
+ .biz-workflow-toolbar{justify-content:center}
+ .biz-workflow-tabs{width:100%}
+ .biz-workflow-tab{flex:1;padding:10px 8px}
+ .biz-workflow-inner{padding:25px 16px}
+ .biz-workflow-side h3{font-size:2.25rem}
+ .biz-workflow-steps{grid-template-columns:1fr;gap:10px}
+ .biz-workflow-steps li{padding:17px;min-height:0}
+ .biz-workflow-steps li>span{margin-bottom:7px}
+ .biz-workflow-steps p{font-size:12px}
+ .biz-workflow-foot span:last-child{display:none}
+ .biz-payroll-layout{padding-top:49px}
+ .biz-payroll-checklist{padding:25px 20px}
+ .biz-payroll-checklist>div:not(.biz-payroll-titlebar){grid-template-columns:30px 1fr}
+ .biz-payroll-checklist>div>p{font-size:13px}
+ .biz-audience-grid{grid-template-columns:1fr}
+ .biz-audience-grid article,.biz-audience-grid article:first-child{padding:25px 0 31px;border-right:0;border-bottom:1px solid rgba(7,58,81,.16)}
+ .biz-audience-grid article:last-child{border-bottom:0}
+ .biz-audience-grid h3{font-size:25px;margin:20px 0 12px}
+ .biz-audience-grid p{font-size:13px}
+ .biz-connected-links a{padding:24px 0;gap:12px}
+ .biz-connected-links a strong{font-size:23px}
+ .biz-connected-links a small{font-size:12px}
+ .biz-faq-layout>div:first-child>p:not(.kicker){font-size:14px}
+ .biz-faq-items summary{font-size:13px;padding:21px 0}
+ .biz-faq-items details p{font-size:13px}
+ .biz-contact-copy>p:not(.kicker):not(.biz-location){font-size:14px}
+ .biz-enquiry-form{padding:25px 18px}
+ .biz-form-pair{grid-template-columns:1fr;gap:0}
+}
+@media(max-width:380px){
+ .biz-hero,.biz-hero-content{min-height:945px}
+ .biz-hero h1{font-size:3.25rem}
+ .biz-hero .actions{flex-direction:column;align-items:flex-start}
+ .biz-values{font-size:7px}
+ .biz-axi,.biz-axi-content{min-height:885px}
+ .biz-payroll-checklist{padding:21px 15px}
+}
+@media(prefers-reduced-motion:reduce){.biz-hero-stage video{display:none!important}.biz-workflow-tab{transition:none!important}}
+
+                                                                                                          
+.biz-workflow-side h3{color:#f5fbff}
+.biz-workflow-steps li strong{color:#f5fbff}
